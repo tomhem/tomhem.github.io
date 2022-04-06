@@ -7,3 +7,6 @@ title: Posts
 <p>On this site you can find information about me and my interests!</p>
 
 <hr></hr>
+{% for post in site.posts %}
+<p><a href="/tomhem/{{ post.url }}">{{ post.title }}</a><div class="dates">{{ post.date | date_to_string }} </div></p>
+{% endfor %}
