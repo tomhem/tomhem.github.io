@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jekyll: static websites generator"
+title: "My First Post"
 tag: jekyll
 ---
 
