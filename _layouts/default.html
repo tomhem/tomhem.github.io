@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{% if page.title %} {{ page.title }} | {% endif %} CHANGE_ME_PAGE_TITLE</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">CHANGE_ME_HEADER</a></h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/CHANGE_ME_YOUR_GITHUB_ACCOUNT_NAME/CHANGE_YOUR_GITHUB_ACCOUNT_NAME.github.io">View on GitHub</a></p>
+      </header>
+      <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+          {{ content }}
+        </section>
+      </div> 
+      <footer>
+        <p>Maintained by <a href="https://github.com/CHANGE_ME_YOUR_GITHUB_ACCOUNT_NAME">tomhem</a></p>
+        <p><small><a href="https://github.com/orderedlist/minimal">Minimal</a> theme is used</small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    
+  </body>
+</html>
