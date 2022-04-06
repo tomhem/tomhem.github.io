@@ -1,0 +1,2 @@
+# tomhem.github.io
+Static
